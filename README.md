@@ -1,3 +1,17 @@
+# My Solution?
+
+## Setup
+- clone the repository
+- run ```npm install```
+- if you don't have vite installed run ```npm install -D vite```
+- create .env by copying .env.example and fill in access-token
+- run ```npm run dev```
+
+## My Thoughts
+- @coreui/coreui was used to keep styling to a minimum
+- after receiving the first array of children, I used https://quicktype.io/typescript and created a Child interface to enable autocomplete for the object's properties
+- React-Query was used to synchronize with the backend. I could have also used a more simpler approach by just using fetch() or axios, but I'm currently trying to get familiar with React-Query. I've been using RxJS while working with Angular, but want to broaden my React knowledge. 
+
 # Interested in working for Famly?
 
 Give us a chance to see your beautiful code! 🤩
